@@ -48,5 +48,51 @@ public class TestMaximumTest {
 			e.printStackTrace();
 		}
 	}
+	
+	@Test
+	public void testCompfuncUc2TT1() {
+		Double n1 = 3.3;
+		Double n2 = 2.2;
+		Double n3 = 1.1;
+		
+		Double expectedResult = 3.3;
+		try {
+			Double actualResult = TestMaximum.class.newInstance().compfunc(n1, n2, n3);
+			assertEquals(expectedResult, actualResult);
+		} catch (InstantiationException | IllegalAccessException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	@Test
+	public void testCompfuncUc2TT2() {
+		Double n1 = 2.2;
+		Double n2 = 3.3;
+		Double n3 = 1.1;
+		
+		Double expectedResult = 3.3;
+		try {
+			Double actualResult = TestMaximum.class.newInstance().compfunc(n1, n2, n3);
+			assertEquals(expectedResult, actualResult);
+		} catch (InstantiationException | IllegalAccessException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	@Test
+	public void testCompfuncUc2TT3() {
+		Double n1 = 1.1;
+		Double n2 = 2.2;
+		Double n3 = 3.3;
+		
+		Double expectedResult = 3.3;
+		try {
+			Double actualResult = TestMaximum.class.newInstance().compfunc(n1, n2, n3);
+			assertEquals(expectedResult, actualResult);
+		} catch (InstantiationException | IllegalAccessException e) {
+			e.printStackTrace();
+		}
+	}
+	
 
 }
