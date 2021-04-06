@@ -94,5 +94,50 @@ public class TestMaximumTest {
 		}
 	}
 	
+	@Test
+	public void testCompfuncUc3TT1() {
+		String n1 = "apple";
+		String n2 = "banana";
+		String n3 = "peach";
+		
+		String expectedResult = "peach";
+		try {
+			String actualResult = TestMaximum.class.newInstance().compfunc(n1, n2, n3);
+			assertEquals(expectedResult, actualResult);
+		} catch (InstantiationException | IllegalAccessException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	@Test
+	public void testCompfuncUc3TT2() {
+		String n1 = "peach";
+		String n2 = "banana";
+		String n3 = "apple";
+		
+		String expectedResult = "peach";
+		try {
+			String actualResult = TestMaximum.class.newInstance().compfunc(n1, n2, n3);
+			assertEquals(expectedResult, actualResult);
+		} catch (InstantiationException | IllegalAccessException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	@Test
+	public void testCompfuncUc3TT3() {
+		String n1 = "apple";
+		String n2 = "peach";
+		String n3 = "banana";
+		
+		String expectedResult = "peach";
+		try {
+			String actualResult = TestMaximum.class.newInstance().compfunc(n1, n2, n3);
+			assertEquals(expectedResult, actualResult);
+		} catch (InstantiationException | IllegalAccessException e) {
+			e.printStackTrace();
+		}
+	}
+	
 
 }
