@@ -12,9 +12,9 @@ public class TestMaximumTest {
 		
 		Integer expectedResult = 3;
 		try {
-			Integer actualResult = TestMaximum.class.newInstance().testMaximum(n1, n2, n3);
+			Integer actualResult = TestMaximum.testMaximum(n1, n2, n3);
 			assertEquals(expectedResult, actualResult);
-		} catch (InstantiationException | IllegalAccessException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
@@ -27,9 +27,9 @@ public class TestMaximumTest {
 		
 		Integer expectedResult = 3;
 		try {
-			Integer actualResult = TestMaximum.class.newInstance().testMaximum(n1, n2, n3);
+			Integer actualResult = TestMaximum.testMaximum(n1, n2, n3);
 			assertEquals(expectedResult, actualResult);
-		} catch (InstantiationException | IllegalAccessException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
@@ -42,9 +42,9 @@ public class TestMaximumTest {
 		
 		Integer expectedResult = 3;
 		try {
-			Integer actualResult = TestMaximum.class.newInstance().testMaximum(n1, n2, n3);
+			Integer actualResult = TestMaximum.testMaximum(n1, n2, n3);
 			assertEquals(expectedResult, actualResult);
-		} catch (InstantiationException | IllegalAccessException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
@@ -57,9 +57,9 @@ public class TestMaximumTest {
 		
 		Double expectedResult = 3.3;
 		try {
-			Double actualResult = TestMaximum.class.newInstance().testMaximum(n1, n2, n3);
+			Double actualResult = TestMaximum.testMaximum(n1, n2, n3);
 			assertEquals(expectedResult, actualResult);
-		} catch (InstantiationException | IllegalAccessException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
@@ -72,9 +72,9 @@ public class TestMaximumTest {
 		
 		Double expectedResult = 3.3;
 		try {
-			Double actualResult = TestMaximum.class.newInstance().testMaximum(n1, n2, n3);
+			Double actualResult = TestMaximum.testMaximum(n1, n2, n3);
 			assertEquals(expectedResult, actualResult);
-		} catch (InstantiationException | IllegalAccessException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
@@ -87,9 +87,9 @@ public class TestMaximumTest {
 		
 		Double expectedResult = 3.3;
 		try {
-			Double actualResult = TestMaximum.class.newInstance().testMaximum(n1, n2, n3);
+			Double actualResult = TestMaximum.testMaximum(n1, n2, n3);
 			assertEquals(expectedResult, actualResult);
-		} catch (InstantiationException | IllegalAccessException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
@@ -102,9 +102,9 @@ public class TestMaximumTest {
 		
 		String expectedResult = "peach";
 		try {
-			String actualResult = TestMaximum.class.newInstance().testMaximum(n1, n2, n3);
+			String actualResult = TestMaximum.testMaximum(n1, n2, n3);
 			assertEquals(expectedResult, actualResult);
-		} catch (InstantiationException | IllegalAccessException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
@@ -117,9 +117,9 @@ public class TestMaximumTest {
 		
 		String expectedResult = "peach";
 		try {
-			String actualResult = TestMaximum.class.newInstance().testMaximum(n1, n2, n3);
+			String actualResult = TestMaximum.testMaximum(n1, n2, n3);
 			assertEquals(expectedResult, actualResult);
-		} catch (InstantiationException | IllegalAccessException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
@@ -132,12 +132,30 @@ public class TestMaximumTest {
 		
 		String expectedResult = "peach";
 		try {
-			String actualResult = TestMaximum.class.newInstance().testMaximum(n1, n2, n3);
+			String actualResult = TestMaximum.testMaximum(n1, n2, n3);
 			assertEquals(expectedResult, actualResult);
-		} catch (InstantiationException | IllegalAccessException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
 	
+	
+	@Test
+	public void testCompfuncUc4() {
+		
+		Integer n1 = 1;
+		Integer n2 = 2;
+		Integer n3 = 3;
+		Integer n4 = 4;
+		Integer n5 = 5;
+		
+		Integer expectedResult = 5;
+		try {
+			Integer actualResult = TestMaximum.testMaximum(n1, n2, n3, n4, n5);
+			assertEquals(expectedResult, actualResult);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
 
 }
