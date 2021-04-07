@@ -12,7 +12,7 @@ public class TestMaximumTest {
 		
 		Integer expectedResult = 3;
 		try {
-			Integer actualResult = TestMaximum.class.newInstance().compfunc(n1, n2, n3);
+			Integer actualResult = TestMaximum.class.newInstance().testMaximum(n1, n2, n3);
 			assertEquals(expectedResult, actualResult);
 		} catch (InstantiationException | IllegalAccessException e) {
 			e.printStackTrace();
@@ -27,7 +27,7 @@ public class TestMaximumTest {
 		
 		Integer expectedResult = 3;
 		try {
-			Integer actualResult = TestMaximum.class.newInstance().compfunc(n1, n2, n3);
+			Integer actualResult = TestMaximum.class.newInstance().testMaximum(n1, n2, n3);
 			assertEquals(expectedResult, actualResult);
 		} catch (InstantiationException | IllegalAccessException e) {
 			e.printStackTrace();
@@ -42,7 +42,7 @@ public class TestMaximumTest {
 		
 		Integer expectedResult = 3;
 		try {
-			Integer actualResult = TestMaximum.class.newInstance().compfunc(n1, n2, n3);
+			Integer actualResult = TestMaximum.class.newInstance().testMaximum(n1, n2, n3);
 			assertEquals(expectedResult, actualResult);
 		} catch (InstantiationException | IllegalAccessException e) {
 			e.printStackTrace();
@@ -57,7 +57,7 @@ public class TestMaximumTest {
 		
 		Double expectedResult = 3.3;
 		try {
-			Double actualResult = TestMaximum.class.newInstance().compfunc(n1, n2, n3);
+			Double actualResult = TestMaximum.class.newInstance().testMaximum(n1, n2, n3);
 			assertEquals(expectedResult, actualResult);
 		} catch (InstantiationException | IllegalAccessException e) {
 			e.printStackTrace();
@@ -72,7 +72,7 @@ public class TestMaximumTest {
 		
 		Double expectedResult = 3.3;
 		try {
-			Double actualResult = TestMaximum.class.newInstance().compfunc(n1, n2, n3);
+			Double actualResult = TestMaximum.class.newInstance().testMaximum(n1, n2, n3);
 			assertEquals(expectedResult, actualResult);
 		} catch (InstantiationException | IllegalAccessException e) {
 			e.printStackTrace();
@@ -87,7 +87,7 @@ public class TestMaximumTest {
 		
 		Double expectedResult = 3.3;
 		try {
-			Double actualResult = TestMaximum.class.newInstance().compfunc(n1, n2, n3);
+			Double actualResult = TestMaximum.class.newInstance().testMaximum(n1, n2, n3);
 			assertEquals(expectedResult, actualResult);
 		} catch (InstantiationException | IllegalAccessException e) {
 			e.printStackTrace();
@@ -102,7 +102,7 @@ public class TestMaximumTest {
 		
 		String expectedResult = "peach";
 		try {
-			String actualResult = TestMaximum.class.newInstance().compfunc(n1, n2, n3);
+			String actualResult = TestMaximum.class.newInstance().testMaximum(n1, n2, n3);
 			assertEquals(expectedResult, actualResult);
 		} catch (InstantiationException | IllegalAccessException e) {
 			e.printStackTrace();
@@ -117,7 +117,7 @@ public class TestMaximumTest {
 		
 		String expectedResult = "peach";
 		try {
-			String actualResult = TestMaximum.class.newInstance().compfunc(n1, n2, n3);
+			String actualResult = TestMaximum.class.newInstance().testMaximum(n1, n2, n3);
 			assertEquals(expectedResult, actualResult);
 		} catch (InstantiationException | IllegalAccessException e) {
 			e.printStackTrace();
@@ -132,7 +132,7 @@ public class TestMaximumTest {
 		
 		String expectedResult = "peach";
 		try {
-			String actualResult = TestMaximum.class.newInstance().compfunc(n1, n2, n3);
+			String actualResult = TestMaximum.class.newInstance().testMaximum(n1, n2, n3);
 			assertEquals(expectedResult, actualResult);
 		} catch (InstantiationException | IllegalAccessException e) {
 			e.printStackTrace();
