@@ -26,7 +26,13 @@ public class TestMaximum <T extends Comparable<T>>{
 		if(n3.compareTo(max) > 0) {
 			max = n3;
 		}*/
-		return n[n.length - 1];
+		T max = n[n.length - 1];
+		print(max);
+		return max;
+	}
+	
+public static <T> void print(T max) {
+		System.out.println("Max Of Inputs is " + max );
 	}
 
 }
